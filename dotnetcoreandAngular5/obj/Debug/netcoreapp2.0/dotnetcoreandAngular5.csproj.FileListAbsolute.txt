@@ -1,0 +1,12 @@
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\bin\Debug\netcoreapp2.0\dotnetcoreandAngular5.deps.json
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\bin\Debug\netcoreapp2.0\dotnetcoreandAngular5.runtimeconfig.json
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\bin\Debug\netcoreapp2.0\dotnetcoreandAngular5.runtimeconfig.dev.json
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\bin\Debug\netcoreapp2.0\dotnetcoreandAngular5.dll
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\bin\Debug\netcoreapp2.0\dotnetcoreandAngular5.pdb
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\obj\Debug\netcoreapp2.0\dotnetcoreandAngular5.csprojResolveAssemblyReference.cache
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\obj\Debug\netcoreapp2.0\dotnetcoreandAngular5.csproj.CoreCompileInputs.cache
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\obj\Debug\netcoreapp2.0\dotnetcoreandAngular5.AssemblyInfoInputs.cache
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\obj\Debug\netcoreapp2.0\dotnetcoreandAngular5.AssemblyInfo.cs
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\obj\Debug\netcoreapp2.0\dotnetcoreandAngular5.dll
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\obj\Debug\netcoreapp2.0\dotnetcoreandAngular5.pdb
+C:\Users\partha\Documents\Visual Studio 2017\Projects\dotnetcoreandAngular5\dotnetcoreandAngular5\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
