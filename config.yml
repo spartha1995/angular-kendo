@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/dotnetcoreandAngular5
+    working_directory: ~/dotnetcoreandAngular5/AngularApp
     docker:
       - image: circleci/node:6-browsers
     steps:
