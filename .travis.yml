@@ -1,21 +1,13 @@
 #.travis.yml
 
-language: node_js
-node_js:
-  - "8.4"
-
+language: csharp
+dist: trusty
+mono: none
+dotnet: 2.1.4
 branches:
   only:
     - master
-
-before_script:
-  - npm install -g @angular/cli
-
+install:
+- dotnet restore
 script:
-  - npm install
-  - ng build --prod
-
-notifications:
-  email:
-    on_failure: change
-    on_success: change
+- dotnet build
