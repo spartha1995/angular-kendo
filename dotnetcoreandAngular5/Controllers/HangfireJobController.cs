@@ -1,4 +1,4 @@
-﻿
+
 using System.Threading.Tasks;
 using dotnetcoreandAngular5.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +10,7 @@ namespace dotnetcoreandAngular5.Controllers
     {
         private readonly IHangFireRepository _IHangFireRepository;
 
-        public HangfireJobController(HangFireRepository hangFireRepository)
+        public HangfireJobController(IHangFireRepository hangFireRepository)
         {
             _IHangFireRepository = hangFireRepository;
         }
@@ -20,9 +20,9 @@ namespace dotnetcoreandAngular5.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public  async Task<ActionResult> ExecuteHangfireJob()
+        public  ActionResult ExecuteHangfireJob()
         {
-           await _IHangFireRepository.HangFireJobExecute();
+            _IHangFireRepository.HangFireJobExecute();
             return Ok();
         }
     }

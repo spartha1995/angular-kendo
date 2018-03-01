@@ -1,0 +1,11 @@
+<div class="col-xs-12 col-md-6 example-col">
+  <label [for]="datepicker">Name: </label>
+  <kendo-textbox-container floatingLabel="First name">
+    <input kendoTextBox [(ngModel)]="Name" [min]="0" required />
+  </kendo-textbox-container>
+
+  <kendo-textbox-container floatingLabel="Age">
+    <kendo-numerictextbox [(ngModel)]="age" [min]="0" required>
+    </kendo-numerictextbox>
+  </kendo-textbox-container>
+</div>

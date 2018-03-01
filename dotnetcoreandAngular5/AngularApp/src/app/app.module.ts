@@ -5,6 +5,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 // Import the Animations module
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule, Routes } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { SelectModule } from 'ng2-select';
 
 // Import  Kendo Modules
 import { ButtonsModule } from '@progress/kendo-angular-buttons';
@@ -17,16 +20,29 @@ import { TreeViewModule } from '@progress/kendo-angular-treeview';
 import { GaugesModule } from '@progress/kendo-angular-gauges';
 import { StockChartModule } from '@progress/kendo-angular-charts';
 import { ExcelExportModule } from '@progress/kendo-angular-excel-export';
-
+import { InputsModule } from '@progress/kendo-angular-inputs';
 
 import { AppComponent } from './app.component';
+import { KendoComponentList } from './kendo-component/componentList/kendo-component.component';
+import { KendoComponent } from './kendo-component/kendo.component';
+import { RegistrationComponent } from './Registration/Registration.component';
+import { RegistrationPageComponent } from './Registration/RegistrationPage/registrationPage';
 
-import {EditService} from '../services/edit.services';
+import { EditService } from '../services/edit.services';
 import { StockDataService } from '../services/stock-data.services';
+import { appRouting } from './app.routing';
+
+import { kendoRouting } from './kendo-component/kendo.routes';
+import { registrationRouting } from './Registration/registration.route';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    KendoComponent,
+    KendoComponentList,
+    RegistrationComponent,
+    RegistrationPageComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +50,13 @@ import { StockDataService } from '../services/stock-data.services';
     HttpModule,
     HttpClientModule,
     HttpClientJsonpModule,
+    CommonModule,
+    RouterModule,
+    SelectModule,
+
+    appRouting,
+    kendoRouting,
+    registrationRouting,
 
     BrowserAnimationsModule,
     ButtonsModule,
@@ -45,12 +68,15 @@ import { StockDataService } from '../services/stock-data.services';
     TreeViewModule,
     GaugesModule,
     StockChartModule,
-    ExcelExportModule
+    ExcelExportModule,
+    InputsModule
   ],
   providers: [
     EditService,
-  StockDataService
+    StockDataService
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }
