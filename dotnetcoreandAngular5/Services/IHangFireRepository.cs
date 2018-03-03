@@ -1,10 +1,10 @@
-﻿
+
 
 using System.Threading.Tasks;
 
 namespace dotnetcoreandAngular5.Services
 {
-    interface IHangFireRepository
+    public interface IHangFireRepository
     {
 
         /// <summary>
