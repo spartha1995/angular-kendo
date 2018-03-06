@@ -8,13 +8,13 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { GridDataResult } from '@progress/kendo-angular-grid';
 import { State, process } from '@progress/kendo-data-query';
 
-import { Product } from '../../../model/product';
+import { Product } from '../../model/product';
 
 //import { Router, ActivatedRoute } from '@angular/router';
 import { Routes, RouterModule } from "@angular/router";
 
-import { EditService } from '../../../services/edit.services';
-import { StockDataService } from '../../../services/stock-data.services';
+import { EditService } from '../../services/edit.services';
+import { StockDataService } from '../../services/stock-data.services';
 
 import { map } from 'rxjs/operators/map';
 

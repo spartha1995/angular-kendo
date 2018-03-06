@@ -28,8 +28,8 @@ import { KendoComponent } from './kendo-component/kendo.component';
 import { RegistrationComponent } from './Registration/Registration.component';
 import { RegistrationPageComponent } from './Registration/RegistrationPage/registrationPage';
 
-import { EditService } from '../services/edit.services';
-import { StockDataService } from '../services/stock-data.services';
+import { EditService } from '../app/services/edit.services';
+import { StockDataService } from '../app/services/stock-data.services';
 import { appRouting } from './app.routing';
 
 import { kendoRouting } from './kendo-component/kendo.routes';
